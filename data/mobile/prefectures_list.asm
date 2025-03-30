@@ -1,13 +1,13 @@
 if DEF(_CRYSTAL_AU)
 Prefectures: ; Quick and dirty solution for the margin offset. In this list, strings must be left-aligned.
-	db "AU-ACT@"
-	db "AU-NSW@"
-	db "AU-NT @"
-	db "AU-QLD@"
-	db "AU-SA @"
-	db "AU-TAS@"
-	db "AU-VIC@"
-	db "AU-WA @"
+	db "AU-ACT@"	; Australian Capital Territory
+	db "AU-NSW@"	; New South Wales
+	db "AU-NT @"	; Northern Territory
+	db "AU-QLD@"	; Queensland
+	db "AU-SA @"	; South Australia
+	db "AU-TAS@"	; Tasmania
+	db "AU-VIC@"	; Victoria
+	db "AU-WA @"	; Western Australia
 	db "NZ-AUK@"      ; Auckland
 	db "NZ-BOP@"      ; Bay of Plenty
 	db "NZ-CAN@"      ; Canterbury
@@ -120,17 +120,17 @@ Prefectures:
 	db	"US-WV@"  	;West_Virginia
 	db	"US-WI@"  	;Wisconsin
 	db	"US-WY@"  	;Wyoming
-	db	"CA-AB@"
-	db	"CA-BC@"
-	db	"CA-MB@"
-	db	"CA-NB@"
-	db	"CA-NL@"
-	db	"CA-NT@"
-	db	"CA-NS@"
-	db	"CA-NU@"
-	db	"CA-ON@"
-	db	"CA-PE@"
-	db	"CA-QC@"
-	db	"CA-SK@"
-LastPrefecture: db	"CA-YT@"
+	db	"CA-AB@"	; Alberta
+	db	"CA-BC@"	; British Columbia
+	db	"CA-MB@"	; Manitoba
+	db	"CA-NB@"	; New Brunswick
+	db	"CA-NL@"	; Newfoundland and Labrador
+	db	"CA-NT@"	; Northwest Territories
+	db	"CA-NS@"	; Nova Scotia
+	db	"CA-NU@"	; Nunavut
+	db	"CA-ON@"	; Ontario
+	db	"CA-PE@"	; Prince Edward Island
+	db	"CA-QC@"	; Quebec
+	db	"CA-SK@"	; Saskatchewan
+LastPrefecture: db	"CA-YT@"	; Yukon
 endc

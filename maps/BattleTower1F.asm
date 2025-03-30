@@ -723,7 +723,7 @@ Text_SaveAndEndTheSession:
 	done
 
 Text_SaveBeforeReentry:
-	text "Your record will"
+	text "Your game will"
 	line "be SAVED before"
 
 	para "you go back into"
